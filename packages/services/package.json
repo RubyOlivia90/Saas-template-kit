@@ -1,0 +1,19 @@
+{
+  "name": "@saas-starter/services",
+  "version": "1.0.0",
+  "description": "Shared logic for external integrations (Stripe, Cloudinary, etc.)",
+  "main": "index.ts",
+  "scripts": {
+    "build": "tsc -b",
+    "lint": "eslint ."
+  },
+  "devDependencies": {
+    "eslint": "*",
+    "typescript": "*"
+  },
+  "dependencies": {
+    "cloudinary": "^2.8.0",
+    "nodemailer": "^7.0.10",
+    "stripe": "^19.3.1"
+  }
+}

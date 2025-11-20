@@ -1,0 +1,23 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "Express Backend Server",
+  "main": "src/index.ts",
+  "scripts": {
+    "dev": "ts-node-dev src/index.ts",
+    "build": "tsc -b",
+    "start": "node dist/index.js",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "@saas-starter/services": "workspace:^",
+    "express": "4.19.2"
+  },
+  "devDependencies": {
+    "@types/express": "4.17.21",
+    "@types/node": "^20.14.2",
+    "eslint": "*",
+    "ts-node-dev": "2.0.0",
+    "typescript": "*"
+  }
+}

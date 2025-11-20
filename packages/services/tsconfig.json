@@ -1,0 +1,12 @@
+{
+
+"extends": "../../packages/typescript-config/base.json",
+  "compilerOptions": {
+    "outDir": "dist",
+    "composite": true,
+    "module": "CommonJS", 
+    "moduleResolution": "node"
+  },
+  "include": ["src/**/*.ts", "index.ts"],
+  "exclude": ["node_modules", "dist"]
+}

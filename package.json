@@ -2,13 +2,14 @@
   "name": "my-turborepo",
   "private": true,
   "scripts": {
+    "dev": "dotenv -- turbo run dev --parallel", 
     "build": "turbo run build",
-    "dev": "turbo run dev",
     "lint": "turbo run lint",
     "format": "prettier --write \"**/*.{ts,tsx,md}\"",
     "check-types": "turbo run check-types"
   },
   "devDependencies": {
+    "dotenv-cli": "^11.0.0",
     "prettier": "^3.6.2",
     "turbo": "^2.6.1",
     "typescript": "5.9.2"
