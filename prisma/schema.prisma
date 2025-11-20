@@ -28,6 +28,6 @@ model Account {
   name      String
   plan      String   @default("FREE")
   createdAt DateTime @default(now())
-  
+ 
   users     User[]
 }
